@@ -1,0 +1,1 @@
+<view class="content"><view style="{{'height:'+(statusBarHeight+'px')+';'}}"></view><view class="aa">收藏</view></view>

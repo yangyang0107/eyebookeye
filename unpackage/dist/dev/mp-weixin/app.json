@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/collect/collect",
+    "pages/mine/mine"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#008800",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#DC4D2F",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabBarImg/shouye.png",
+        "selectedIconPath": "static/tabBarImg/shouye-o.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "static/tabBarImg/fenlei.png",
+        "selectedIconPath": "static/tabBarImg/fenlei-o.png"
+      },
+      {
+        "pagePath": "pages/collect/collect",
+        "text": "收藏",
+        "iconPath": "static/tabBarImg/shoucang.png",
+        "selectedIconPath": "static/tabBarImg/shoucang-o.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabBarImg/wode.png",
+        "selectedIconPath": "static/tabBarImg/wode-o.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
